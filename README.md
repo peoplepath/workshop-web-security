@@ -1,3 +1,5 @@
+> **DISCLAIMER: code in this demonstration are intentionally vulnerable. Do not use this code in your application!**
+
 # Web Application Security Demo
 - designed for students of [KIV/WEB](https://courseware.zcu.cz/portal/studium/courseware/kiv/web) of [University of West Bohemia](http://www.zcu.cz/en/)
 
