@@ -117,6 +117,7 @@ $_SESSION['csrf'] = bin2hex(random_bytes(16));
   - Vladimír Smitka [@smitka](https://twitter.com/smitka)
 
 ### XSS (Cross-site Scripting)
+ - [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
  - [OWASP XSS](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS))
  - [OWASP testing for XSS](https://www.owasp.org/index.php/Testing_for_Cross_site_scripting)
  - [PHP triky: Cross Site Scripting](https://php.vrana.cz/cross-site-scripting.php) (czech only)
