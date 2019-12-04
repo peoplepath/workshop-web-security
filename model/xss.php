@@ -1,5 +1,6 @@
 <?php
 $title = 'XSS demo';
+$desc  = 'Outputting user input unescaped';
 $view  = 'xss';
 
 if (isset($_POST['name'])) {

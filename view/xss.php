@@ -1,20 +1,20 @@
 <h3>Awesome Crowd Funding</h3>
 <form method="post">
 <!-- <form action="https://httpbin.org/post" method="post" target="_blank"> -->
-    <div>
+    <div class="form-group">
         <label>Name</label>
-        <input type="text" name="name">
+        <input type="text" name="name" class="form-control">
     </div>
-    <div>
+    <div class="form-group">
         <label>Comment</label>
-        <textarea name="comment" placeholder="Leave a comment..."></textarea>
+        <textarea name="comment" placeholder="Leave a comment..." class="form-control"></textarea>
     </div>
-    <div>
+    <div class="form-group">
         <label>Credit Card Number</label>
-        <input type="text" name="ccn">
+        <input type="text" name="ccn" class="form-control">
     </div>
-    <div>
-        <button type="submit">Pledge</button>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Pledge</button>
     </div>
 </form>
 <?php if ($pledges) { ?>

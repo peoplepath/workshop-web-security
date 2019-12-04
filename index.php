@@ -9,7 +9,7 @@ $url = parse_url($_SERVER['REQUEST_URI']);
 if (file_exists($model = __DIR__ . '/model' . $url['path'] . '.php')) {
     include $model;
 } else {
-    $title = '';
+    $title = 'Most common attacks';
     $view  = 'index';
 }
 ?>
@@ -20,7 +20,14 @@ if (file_exists($model = __DIR__ . '/model' . $url['path'] . '.php')) {
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
-    <h1><?= $title ?></h1>
-    <?php include __DIR__ . '/view/' . $view . '.php'; ?>
+    <div class="container">
+        <a href="/">home</a>
+        <div class="jumbotron">
+            <h1 class="display-4"><?= $title ?></h1>
+            <p class="lead"><?= $desc ?? '' ?></p>
+            <hr class="my-4">
+            <?php include __DIR__ . '/view/' . $view . '.php'; ?>
+        </div>
+    </div>
 </body>
 </html>

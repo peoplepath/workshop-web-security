@@ -1,8 +1,12 @@
+<h3>User list</h3>
 <form method="get">
-    <input type="text" name="q" value="<?= $query ?>">
-    <input type="submit" name="">
+    <div class="form-group">
+        <input type="text" name="q" value="<?= $query ?>" class="form-control">
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
 </form>
-<code><?= $sql ?></code>
 <?php if ($users) { ?>
 <table class="table">
     <tr>
@@ -21,3 +25,4 @@
 <?php } else { ?>
 <div>No users found!</div>
 <?php } ?>
+<code><?= $sql ?></code>

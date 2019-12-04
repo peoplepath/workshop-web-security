@@ -3,21 +3,21 @@
 <a class="btn btn-primary" href="?login" role="button">Login</a>
 <?php } else { ?>
 <form method="post">
-    <div>
+    <div class="form-group">
         <label>Address</label>
-        <input type="text" name="address">
+        <input type="text" name="address" class="form-control">
     </div>
-    <div>
+    <div class="form-group">
         <label>Dish</label>
-        <select name="dish">
+        <select name="dish" class="form-control">
             <option></option>
             <option>Malai Kofta</option>
             <option>Kadai Paneer</option>
             <option>Chicken Vindaloo</option>
         </select>
     </div>
-    <div>
-        <button type="submit">Pay & Order</button>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Pay & Order</button>
     </div>
 </form>
     <?php if ($orders) { ?>

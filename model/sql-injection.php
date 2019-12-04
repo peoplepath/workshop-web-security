@@ -1,5 +1,6 @@
 <?php
 $title = 'SQL Injection Demo';
+$desc  = 'Building SQL statement directly from user input';
 $view  = 'sql-injection';
 
 $sql = 'SELECT id,name FROM user';
