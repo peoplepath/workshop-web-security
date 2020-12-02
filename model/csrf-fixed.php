@@ -2,6 +2,9 @@
 $title = 'CSRF demo [FIXED]';
 $view  = 'csrf-fixed';
 
+// work only on modern browsers, it's good practice to use CSRF token as well (for now)
+ini_set('session.cookie_samesite', 'Strict');
+
 session_start();
 
 if (isset($_REQUEST['login'])) {
