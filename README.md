@@ -143,3 +143,4 @@ $_SESSION['csrf'] = bin2hex(random_bytes(16));
 ### Others
  - [Self tweeting tweet](https://twitter.com/derGeruhn/status/476764918763749376)
  - [XSS in Avast Desktop AntiVirus](https://medium.com/bugbountywriteup/5-000-usd-xss-issue-at-avast-desktop-antivirus-for-windows-yes-desktop-1e99375f0968)
+ - [JWT vulnerabilities](https://github.com/ticarpi/jwt_tool) (eg. _Key injection_)
