@@ -14,7 +14,7 @@ Designed for students of [KIV/WEB](https://courseware.zcu.cz/portal/studium/cour
 - PHP extensions PDO and pdo_sqlite
 
 ### Installation
-Clone this repository `git clone https://github.com/intraworlds/workshop-web-security.git` or download [ZIP file](https://github.com/intraworlds/workshop-web-security/archive/master.zip)
+Clone this repository `git clone https://github.com/peoplepath/workshop-web-security.git` or download [ZIP file](https://github.com/intraworlds/workshop-web-security/archive/master.zip)
 
 ### Run
 Inside downloaded project run
