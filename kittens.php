@@ -1,3 +1,4 @@
+<?php if ($_GET['show_me_kittens'] ?? false) { ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,3 +10,5 @@
     <img src="http://127.0.0.1:8080/csrf?address=Univerzitn%C3%AD+8&dish=Chicken+Vindaloo">
 </body>
 </html>
+<?php return;} ?>
+<h2>Hi Alice, checkout those lovely kittens. Click <a href="?show_me_kittens=1">here</a>.</h2>
